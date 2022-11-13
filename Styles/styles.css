@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+body {
+    background: linear-gradient(grey, black, darkred);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+
+}
+header {
+    background-color: black;
+ 
+}
+li {
+    list-style: none;
+    margin: 0 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.fotoIndex{
+    width: 100%;
+    height: 600px;
+    
+}
+.indexTit {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.mensaje1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.entrenaC {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 2%;
+}
+.instagram {
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 30px;
+    background-color:rgb(0, 0, 0);
+    position: sticky;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 0%;
+    margin-top: 2%;
+   
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 21px;
+}
+header ul {
+    display: flex;
+}
+.mensaje {
+    color: black;
+}
+
+/* Desde acá, es nosotros.html */
+
+.nosotros {
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    right: 0%;
+}
+.staff {
+    margin-right: 52%; 
+    margin-left: 2%;
+}
+.titNos {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2%;
+}
+.titStaff {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    margin-top: 2%;
+}
+.diegoFoto {
+    width: 50%;
+    height: 50%;
+   margin-left: 25%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+.santiFoto {
+    width: 50%;
+    height: 50%;
+   margin-left: 25%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+.pStaff {
+    color: white;
+    font-size: 20px;
+}
+/* Desde acá, es opiniones */
+
+.opiniones {
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.testimonios {
+    margin-left: 52%;
+    margin-right: 2%;
+}
+.titTestimonios {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 4.5%;
+    background-color: black;
+}
+.subTestimonios {
+    color: white;
+    margin-top: 2%;
+    font-size: 40px
+}
+
+/* Desde acá, es contacto */
+.titContactanos {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+}
+.videoLlamada {
+    height: 760px;
+}
+.formulario {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 470px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+.requeridos {
+    margin: 1%;
+}
+.formu {
+    margin: 2%;
+}
+
+/* Desde acá, es galeria */
+.galeriaT {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.galeria img {
+    border: 5px solid rgb(0, 0, 0);
+     width:100%;
+    height: 400px;
+   margin: 2%;
+}
+.slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    animation: cambio 10s infinite alternate linear;
+    width: 300%;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    
+   100%{margin-left: -203%;}
+}
+
+
+
+
+
+
+
+
+
+
+
