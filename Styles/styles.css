@@ -34,7 +34,7 @@ a {
 }
 .fotoIndex{
     width: 100%;
-    height: 600px;
+    height: 300px;
     
 }
 .indexTit {
@@ -43,16 +43,22 @@ a {
     text-align: center;
 }
 .mensaje1 {
-    color: white;
     font-size: 50px;
     text-align: center;
 }
 .entrenaC {
     text-align: center;
-    color: white;
+    color: darkred;
     font-size: 50px;
     margin-top: 2%;
 }
+.titCambios {
+    color: grey;
+    font-size: 30px;
+    margin-top: 5%;
+    translate: 30%;
+}
+
 .instagram {
     color: rgba(255, 255, 255, 0.562);
     font-size: 30px;
@@ -190,6 +196,7 @@ header ul {
 .slider {
     width: 100%;
     overflow: hidden;
+    margin-top: 5%;
 }
 .slider ul {
     display: flex;
@@ -197,8 +204,8 @@ header ul {
     width: 300%;
 }
 .galleryImg {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     list-style: none;
     margin: 2%;
 }
