@@ -1,28 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-   
+    box-sizing: border-box;   
 }
 body {
-    background: linear-gradient(grey, black, darkred);
+    background: linear-gradient(to right, darkgrey, black, darkred);
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 0;
+    padding: 10px;
 }
 .contenedor {
     width: 90%;
+    min-width: 300px;
     max-width: 1280px;
     margin: auto;
 
 }
 header {
-    background-color: black;
- 
+     padding: 30px;
 }
 li {
     list-style: none;
@@ -48,7 +47,7 @@ a {
 }
 .entrenaC {
     text-align: center;
-    color: darkred;
+    color: white;
     font-size: 50px;
     margin-top: 2%;
 }
@@ -67,7 +66,7 @@ a {
     text-align: center;
     justify-content: center;
     justify-items: center;
-    margin-bottom: 0%;
+    bottom: 0%;
     margin-top: 2%;
    
 }
@@ -142,17 +141,18 @@ header ul {
 }
 .titTestimonios {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     margin-top: 4.5%;
-    background-color: black;
+    padding: 2%;
+    
 }
 .subTestimonios {
     color: white;
     margin-top: 2%;
-    font-size: 40px
+    font-size: 30px;
+    padding: 2%;
 }
-
 /* Desde acá, es contacto */
 .titContactanos {
     background-color: black;
