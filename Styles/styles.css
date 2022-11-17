@@ -17,11 +17,11 @@ body {
     width: 90%;
     min-width: 300px;
     max-width: 1280px;
-    margin: auto;
-
+padding: 10px;
+margin: 2%;
 }
 header {
-     padding: 30px;
+     padding: 10px;
 }
 li {
     list-style: none;
@@ -33,13 +33,13 @@ a {
 }
 .fotoIndex{
     width: 100%;
-    height: 300px;
-    
+    height: 350px;
 }
 .indexTit {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+    margin-top: 2%;
 }
 .mensaje1 {
     font-size: 50px;
@@ -67,7 +67,7 @@ a {
     justify-content: center;
     justify-items: center;
     bottom: 0%;
-    margin-top: 2%;
+    margin-top: 1%;
    
 }
 .menu {
@@ -78,6 +78,7 @@ a {
 }
 header ul {
     display: flex;
+    font-size: 25px;
 }
 .mensaje {
     color: black;
@@ -102,11 +103,9 @@ header ul {
     margin-top: 2%;
 }
 .titStaff {
-    color: white;
-    font-size: 40px;
     text-align: center;
-    background-color: black;
-    margin-top: 2%;
+    font-size: 40px;
+    margin-top: 5%;
 }
 .diegoFoto {
     width: 50%;
@@ -129,20 +128,20 @@ header ul {
 /* Desde acá, es opiniones */
 
 .opiniones {
-    width: 40%;
-    height: 500px;
-    position: absolute;
+    width: 30%;
+    height: 350px;
     margin-left: 5%;
     margin-top: 2%;
+    position: absolute;
 }
 .testimonios {
-    margin-left: 52%;
+    margin-left: 42%;
     margin-right: 2%;
 }
 .titTestimonios {
     color: white;
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     margin-top: 4.5%;
     padding: 2%;
     
@@ -152,6 +151,18 @@ header ul {
     margin-top: 2%;
     font-size: 30px;
     padding: 2%;
+    margin-bottom: 10%;
+}
+.direccionAtlas {
+    font-size: 25px;
+    color: white;
+    max-width: 300px;
+    margin-right: 2%;
+    margin-bottom: 0;
+    background-color: gray;
+  display: inline-block;
+   translate: 900px;
+
 }
 /* Desde acá, es contacto */
 .titContactanos {
