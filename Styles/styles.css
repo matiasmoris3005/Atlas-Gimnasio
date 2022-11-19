@@ -87,46 +87,55 @@ header ul {
 }
 
 /* Desde acá, es nosotros.html */
-
+.columnsProfes {
+    display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+margin-top: 5%;
+margin-bottom: 10%;
+}
 .nosotros {
-    width: 50%;
-    height: 600px;
-    position: absolute;
-    right: 0%;
+  width: 500px;
+translate: 420px;
 }
 .staff {
-    margin-right: 52%; 
-    margin-left: 2%;
+    padding: 40px;
 }
 .titNos {
     color: white;
     font-size: 70px;
     text-align: center;
-    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .titStaff {
     text-align: center;
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 40%;
+padding: 20px;
+
 }
 .diegoFoto {
-    width: 50%;
-    height: 50%;
-   margin-left: 25%;
-   margin-top: 4%;
-   margin-bottom: 4%;
+    width: 400px;
+    height: 400px;
+   
 }
 .santiFoto {
-    width: 50%;
-    height: 50%;
-   margin-left: 25%;
-   margin-top: 4%;
-   margin-bottom: 4%;
+    width: 400px;
+    height: 400px;
+    
 }
-.pStaff {
+.pStaffDiego {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+padding: 20px;
+margin-top: 5%;
 }
+.pStaffSanti {
+    color: white;
+    font-size: 25px;
+padding: 20px;
+margin-top: 12%;
+}
+
 /* Desde acá, es opiniones */
 
 .opiniones {
