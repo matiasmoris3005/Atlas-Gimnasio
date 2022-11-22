@@ -6,26 +6,19 @@
 body {
     background: linear-gradient(to right, darkgrey, black, darkred);
 }
-
 .logo {
     width: 120px;
     height: 120px;
-    margin: 0;
     padding: 10px;
-}
-.contenedor {
-    width: 90%;
-    min-width: 390px;
-    max-width: 1280px;
-padding: 10px;
-margin: 2%;
+    margin-top: 10%;
 }
 header {
-     padding: 10px;
+     padding: 20px;
 }
 li {
     list-style: none;
     margin: 0 20px;
+    margin-top: 3%;
 }
 a {
     text-decoration: none;
@@ -33,29 +26,32 @@ a {
 }
 .fotoIndex{
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 .indexTit {
     color: white;
     font-size: 40px;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.mensaje1 {
-    font-size: 50px;
+.mensaje1 { 
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 5%;
+    background: linear-gradient(black, rgb(77, 77, 4))
 }
-.entrenaC {
+    .entrenaC {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 2%;
 }
 .titCambios {
-    color: grey;
-    font-size: 30px;
+    color: rgb(199, 212, 14);
+    font-size: 25px;
+    margin-left: 6%;
     margin-top: 5%;
-    translate: 30%;
 }
 
 .instagram {
@@ -64,213 +60,141 @@ a {
     background-color:rgb(0, 0, 0);
     position: sticky;
     text-align: center;
-    justify-content: center;
-    justify-items: center;
     bottom: 0%;
     margin-top: 1%;
    
 }
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 21px;
-    width: 100%;
-    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 header ul {
-    display: flex;
-    font-size: 25px;
+    font-size: 20px;
 }
 .mensaje {
     color: black;
 }
 
 /* Desde acá, es nosotros.html */
-.columnsProfes {
-    display: grid;
-grid-template-columns: 1fr 1fr 2fr;
-margin-top: 5%;
-margin-bottom: 10%;
-}
 .nosotros {
-  width: 500px;
-translate: 420px;
-}
-.staff {
-    padding: 40px;
+    width: 100%;
+    height: auto;
 }
 .titNos {
     color: white;
-    font-size: 70px;
     text-align: center;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 .titStaff {
     text-align: center;
-    font-size: 40px;
-    margin-top: 40%;
-padding: 20px;
-
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
 }
 .diegoFoto {
-    width: 400px;
-    height: 400px;
-   
+    width: 70%;
+    height: auto;
+    translate: 22%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .santiFoto {
-    width: 400px;
-    height: 400px;
-    
+    width: 70%;
+    height: auto;
+    translate: 22%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .pStaffDiego {
     color: white;
-    font-size: 25px;
-padding: 20px;
-margin-top: 5%;
+    margin: 5%;
+    text-align: center;
+    font-size: 20px;
 }
 .pStaffSanti {
     color: white;
-    font-size: 25px;
-padding: 20px;
-margin-top: 12%;
+    margin: 5%;
+    text-align: center;
+    font-size: 20px;
 }
 
 /* Desde acá, es opiniones */
 
 .opiniones {
-    width: 30%;
-    height: 350px;
-    margin-left: 5%;
-    margin-top: 2%;
-    position: absolute;
+   width: 80%;
+   height: auto;
+   translate: 5%;
+   margin: 5%;
 }
 .testimonios {
-    margin-left: 42%;
-    margin-right: 2%;
+   padding: 10px;
 }
 .titTestimonios {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: white;
-    font-size: 50px;
-    text-align: left;
-    margin-top: 4.5%;
-    padding: 2%;
-    
 }
 .subTestimonios {
     color: white;
-    margin-top: 2%;
-    font-size: 30px;
-    padding: 2%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .direccionAtlas {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
-    max-width: 300px;
-    margin-right: 2%;
+    padding: 10px;
     margin-bottom: 0;
     background-color: gray;
   display: inline-block;
-   translate: 900px;
-
+  margin: 2%;
 }
 /* Desde acá, es contacto */
 .titContactanos {
-    background-color: black;
-    color: white;
-    font-size: 50px;
     text-align: center;
-    margin-top: 3%;
+    color: white;
 }
 .videoLlamada {
-    height: 760px;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .formulario {
-    display: inline-block;
+    display: grid;
     margin-top: 5%;
-    margin-left: 470px;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: auto;
     text-align: center;
     color: white;
-    justify-content: center;
-    justify-items: center;
-    position: relative;
-    margin-bottom: 60px;
+    translate: 12%;
 }
 .requeridos {
-    margin: 1%;
+    margin-top: 5%;
 }
 .formu {
-    margin: 2%;
+   margin-top: 5%;
 }
-
+.enviar {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* Desde acá, es galeria */
 .gridContainer {
     display: grid;
 }
-@media (max-width: 390px) /* vista mobile */{
-    .menu {
-        display: grid;
-        translate: -30px;
-    }
-    .logo {
-        translate: 130px;
-    }
-    .barrera {
-font-size: 12px;
-
-    }
-.galeriaT {
-    translate: -20px;
-   
-}
-.direccionAtlas {
-    translate: 10px;
-    font-size: 20px;
-    margin-top: 10%;
-}
-.instagram {
-    margin-top: 12%;
-    text-align: center;
-    margin-right: 11%;
-}
-.indexTit {
-    font-size: 30px;
-    margin-top: 8%;
-    margin-bottom: 8%;
-}
-.mensaje1 {
-    font-size: 40px;
-    margin-bottom: 8%;
-    background: linear-gradient(black, rgb(77, 77, 4))
-}
-.entrenaC {
-    font-size: 30px;
-    padding: 2%;
-}
-.titCambios {
-    translate: -0px;
-    padding: 6%;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    background: linear-gradient(black, yellow);
-}
-}
 .galeriaT {
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
-
 .slider {
     width: 100%;
     overflow: hidden;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 .slider ul {
     display: flex;
@@ -278,12 +202,10 @@ font-size: 12px;
     width: 300%;
 }
 .galleryImg {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     list-style: none;
-    margin: 2%;
-}
-
+}  
 @keyframes cambio {
     0% {margin-left: 0;}
     
