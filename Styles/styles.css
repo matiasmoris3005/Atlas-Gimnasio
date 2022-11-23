@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box; 
+    font-family: 'Marcellus', serif;
 }
 body {
     background: linear-gradient(to right, darkgrey, black, darkred);
@@ -41,7 +42,7 @@ a {
     margin-bottom: 5%;
     background: linear-gradient(black, rgb(77, 77, 4))
 }
-    .entrenaC {
+.entrenaC {
     text-align: center;
     color: white;
     font-size: 30px;
@@ -50,10 +51,9 @@ a {
 .titCambios {
     color: rgb(199, 212, 14);
     font-size: 25px;
-    margin-left: 6%;
     margin-top: 5%;
+    text-align: center;
 }
-
 .instagram {
     color: rgba(255, 255, 255, 0.562);
     font-size: 30px;
@@ -62,7 +62,6 @@ a {
     text-align: center;
     bottom: 0%;
     margin-top: 1%;
-   
 }
 .menu {
     display: grid;
@@ -211,8 +210,180 @@ header ul {
     
    100%{margin-left: -203%;}
 }
-
-
+@media (min-width: 1280px) {
+    .logo {
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+    }
+    .contenedor {
+        width: 100%;
+        padding: 10px;
+    }
+    .fotoIndex{
+        width: 100%;
+        height: 400px;
+    }
+    .indexTit {
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .mensaje1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .entrenaC {
+        font-size: 50px;
+        margin-top: 2%;
+    }
+    .titCambios {
+        color: rgb(199, 212, 14);
+        font-size: 35px;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .instagram {
+        color: rgba(255, 255, 255, 0.562);
+        font-size: 30px;
+        background-color:rgb(0, 0, 0);
+        position: sticky;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        bottom: 0%;
+        margin-top: 1%;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 21px;
+        width: 100%;
+        height: auto;
+    }
+    header ul {
+        display: flex;
+        font-size: 25px;
+    }
+    .direccionAtlas {
+        font-size: 25px;
+        color: white;
+        max-width: 300px;
+        margin-right: 2%;
+        margin-bottom: 0;
+        background-color: gray;
+      display: inline-block;
+       translate: 900px;
+    }
+    .slider {
+        margin: 0;
+    }
+    .galleryImg {
+       width: 70%;
+       height: 70%;
+    }
+    .columnsProfes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .nosotros {
+        width: 500px;
+        translate: 420px;
+    }
+    .staff {
+        padding: 40px;
+    }
+    .titNos {
+        color: white;
+        font-size: 70px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .titStaff {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 40%;
+        padding: 20px;
+        }
+        .pStaffDiego {
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 5%;
+        }
+        .pStaffSanti {
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 12%;
+        }
+        .opiniones {
+            width: 30%;
+            height: 350px;
+            margin-left: 5%;
+            margin-top: 2%;
+            position: absolute;
+        }
+        .testimonios {
+            margin-left: 42%;
+            margin-right: 2%;
+        }
+        .titTestimonios {
+            color: white;
+            font-size: 50px;
+            text-align: left;
+            margin-top: 4.5%;
+            padding: 2%;
+        }
+        .subTestimonios {
+            color: white;
+            margin-top: 2%;
+            font-size: 30px;
+            padding: 2%;
+            margin-bottom: 10%;
+        }
+        .titContactanos {
+            background-color: black;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 3%;
+        }
+        .videoLlamada {
+            height: 760px;
+        }
+        .formulario {
+            display: inline-block;
+            margin-top: 5%;
+            margin-left: 470px;
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            color: white;
+            justify-content: center;
+            justify-items: center;
+            position: relative;
+            margin-bottom: 60px;
+        }
+        .requeridos {
+            margin: 1%;
+        }
+        .formu {
+            margin: 2%;
+        }
+        .galeriaT {
+            color: white;
+            font-size: 60px;
+            text-align: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+}
 
 
 
