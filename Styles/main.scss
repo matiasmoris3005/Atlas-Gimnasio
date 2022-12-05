@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;;
+}
+body {
+    background: linear-gradient(black, rgb(2, 2, 20));
+    .logo{
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+        margin-top: 10%;
+    }
+    header {
+        padding: 20px;
+        .menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            ul {
+                font-size: 20px;
+            }
+        }
+        li {
+            list-style: none;
+            margin: 0 20px;
+            margin-top: 3%;
+        }  
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    } 
+    .indexTit {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .entrenaIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5px;
+        .entrenaC {
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            padding: 2%;
+            margin-top: 2%;
+            background: linear-gradient(black, rgb(73, 3, 3))
+        }
+        .salud {
+            font-size: 15px;
+            color: white;
+            padding: 2%;
+            margin-top: 2%;
+            text-align: center;
+            background: linear-gradient(black, rgb(73, 3, 3))
+        }
+    }
+    .titCambios {
+        color: white;
+        font-size: 20px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .mensaje {
+        color: black;
+    }    
+    .instagram {
+        color: rgba(255, 255, 255, 0.562);
+        font-size: 30px;
+        background-color:rgb(0, 0, 0);
+        position: sticky;
+        text-align: center;
+        bottom: 0%;
+        margin-top: 1%;
+    }
+    .mensaje1 { 
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5%;
+        background: linear-gradient(black, rgb(73, 3, 3))
+    }
+    .direccionAtlas {
+        font-size: 15px;
+        color: white;
+        padding: 10px;
+        margin-bottom: 0;
+        background-color: gray;
+      display: inline-block;
+      margin: 2%;
+    }
+}
+/* desde acá, es nosotros.html */
+main {
+    .titNos {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .nosotros {
+        width: 70%;
+        height: auto;
+        translate: 22%;
+    }
+    .staff {
+        .titStaff {
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-size: 20px;
+        }
+        .diegoFoto {
+            width: 50%;
+            height: auto;
+            translate: 50%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .sFoto {
+            width: 50%;
+            height: auto;
+            translate: 50%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .pStaffDiego {
+            color: white;
+            margin: 5%;
+            text-align: center;
+            font-size: 15px;
+        }
+        .pStaffSanti {
+            color: white;
+            margin: 5%;
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+}
+/* Desde acá, es opiniones */
+main {
+    .opiniones {
+        width: 80%;
+        height: auto;
+        translate: 5%;
+        margin: 5%;
+     }
+    .testimonios {
+        padding: 5px;
+        .titTestimonios {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            color: white;
+        }
+        .subTestimonios {
+            color: white;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-size: 15px;
+        }
+    }
+}
+/* Desde acá, es contacto */
+main {
+    .videoLlamada {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .titContactanos {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        background: linear-gradient(black, rgb(73, 3, 3))
+    }
+    .formulario {
+        display: grid;
+        margin-top: 5%;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        color: white;
+        translate: 12%;
+        .requeridos {
+            margin-top: 5%;
+            font-size: 15px;
+        }
+        .formu {
+           margin-top: 5%;
+        }
+        .enviar {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    }
+}
+/* Desde acá, es galeria */
+main {
+    .galeriaT {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+    .slider {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        li {
+            list-style: none;
+        }
+        ul {
+            display: flex;
+            animation: cambio 10s infinite alternate linear;
+            width: 300%;
+        }
+        .galleryImg {
+            width: 85%;
+            height: 85%;
+            list-style: none;
+        }  
+    }
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        
+       100%{margin-left: -203%;}
+    }
+}
+@media (min-width: 1280px) {
+    body {
+        .logo {
+            width: 120px;
+            height: 120px;
+            padding: 2px;
+            translate: 10%;
+        }
+        header {
+            .contenedor {
+                width: 100%;
+                padding: 2px;
+                .menu {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 21px;
+                    width: 100%;
+                    height: auto;
+                    ul {
+                        display: flex;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        main {
+            .fotoFondo {
+                background-image: url(../Img/atlasfondo.jpg);
+                background-size: cover;
+                width: 100%;
+                height: auto;
+                opacity: 80%;
+                .indexTit {
+                    color: white;
+                    font-size: 60px;
+                    text-align: center;
+                    background-color: black;
+                }
+                .entrenaIndex {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 10px;
+                    padding: 5px;
+                    margin-top: 40%;
+                    background: linear-gradient(black, rgb(73, 3, 3));
+                    .salud {
+                        font-size: 30px;
+                        color: white;
+                        padding: 2px;
+                        text-align: center;
+                    } 
+                    .entrenaC {
+                        font-size: 30px;
+                    } 
+                }
+            }
+            .titCambios {
+                color: white;
+                font-size: 35px;
+                margin-top: 10%;
+                margin-bottom: 4%;
+                text-align: center;
+                margin-left: 0;
+            }
+            .slider {
+                margin: 0;
+                .galleryImg {
+                    width: 70%;
+                    height: 70%;
+                 }
+            }
+            .mensaje1 {
+                font-size: 30px;
+                text-align: center;
+            }
+            .direccionAtlas {
+                font-size: 20px;
+                color: white;
+                max-width: 300px;
+                margin-right: 2%;
+                margin-bottom: 0;
+                background-color: gray;
+              display: inline-block;
+               translate: 900px;
+            }
+            .instagram {
+                color: rgba(255, 255, 255, 0.562);
+                font-size: 30px;
+                background-color:rgb(0, 0, 0);
+                position: sticky;
+                text-align: center;
+                justify-content: center;
+                justify-items: center;
+                bottom: 0%;
+                margin-top: 1%;
+            }
+            .titNos {
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                margin-bottom: 5%;
+            }
+            .nosotros {
+                    width: 40%;
+                    height: auto;
+                    translate: 75%;
+            }
+            .staff {
+                .columnsProfes {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 2fr;
+                    margin-top: 5%;
+                    margin-bottom: 10%;
+                    .titStaff {
+                        text-align: center;
+                        font-size: 30px;
+                        margin-top: 30%;
+                        padding: 20px;
+                        }
+                        .pStaffDiego {
+                            color: white;
+                            font-size: 20px;
+                            padding: 20px;
+                            margin-top: 2%;
+                            }
+                            .pStaffSanti {
+                            color: white;
+                            font-size: 20px;
+                            padding: 20px;
+                            margin-top: 5%;
+                            }    
+                }
+            }
+            .colOpiniones {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .opiniones {
+                width: 70%;
+                height: auto;
+                translate: 10%;
+                margin-top: 5%;
+            }
+            .testimonios {
+                .titTestimonios {
+                    color: white;
+                    font-size: 35px;
+                    text-align: left;
+                    margin-top: 4.5%;
+                    padding: 2%;
+                }
+                .subTestimonios {
+                    color: white;
+                    margin-top: 2%;
+                    font-size: 25px;
+                    padding: 2%;
+                }
+            }
+            .videoLlamada {
+                height: 760px;
+            }
+            .titContactanos {
+                background-color: black;
+                color: white;
+                font-size: 50px;
+                text-align: center;
+                margin-top: 3%;
+            }
+            .formulario {
+                display: inline-block;
+                margin-top: 5%;
+                margin-left: 430px;
+                width: 400px;
+                height: 400px;
+                text-align: center;
+                color: white;
+                justify-content: center;
+                justify-items: center;
+                position: relative;
+                margin-bottom: 60px;
+                .requeridos {
+                    margin: 1%;
+                }
+                .formu {
+                    margin: 2%;
+                }
+            }
+            .galeriaT {
+                color: white;
+                font-size: 40px;
+                text-align: center;
+                margin-top: 5%;
+                margin-bottom: 7%;
+            }
+        }
+    }
+}
+        

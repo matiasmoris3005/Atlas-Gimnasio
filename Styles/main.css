@@ -1,0 +1,435 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Marcellus", serif;
+}
+
+body {
+  background: linear-gradient(black, rgb(2, 2, 20));
+}
+body .logo {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin-top: 10%;
+}
+body header {
+  padding: 20px;
+}
+body header .menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body header .menu ul {
+  font-size: 20px;
+}
+body header li {
+  list-style: none;
+  margin: 0 20px;
+  margin-top: 3%;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+body .indexTit {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+body .entrenaIndex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+}
+body .entrenaIndex .entrenaC {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 2%;
+  margin-top: 2%;
+  background: linear-gradient(black, rgb(73, 3, 3));
+}
+body .entrenaIndex .salud {
+  font-size: 15px;
+  color: white;
+  padding: 2%;
+  margin-top: 2%;
+  text-align: center;
+  background: linear-gradient(black, rgb(73, 3, 3));
+}
+body .titCambios {
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+  text-align: center;
+}
+body .mensaje {
+  color: black;
+}
+body .instagram {
+  color: rgba(255, 255, 255, 0.562);
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  bottom: 0%;
+  margin-top: 1%;
+}
+body .mensaje1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5%;
+  background: linear-gradient(black, rgb(73, 3, 3));
+}
+body .direccionAtlas {
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  background-color: gray;
+  display: inline-block;
+  margin: 2%;
+}
+
+/* desde acá, es nosotros.html */
+main .titNos {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .nosotros {
+  width: 70%;
+  height: auto;
+  translate: 22%;
+}
+main .staff .titStaff {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+main .staff .diegoFoto {
+  width: 50%;
+  height: auto;
+  translate: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .staff .sFoto {
+  width: 50%;
+  height: auto;
+  translate: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .staff .pStaffDiego {
+  color: white;
+  margin: 5%;
+  text-align: center;
+  font-size: 15px;
+}
+main .staff .pStaffSanti {
+  color: white;
+  margin: 5%;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Desde acá, es opiniones */
+main .opiniones {
+  width: 80%;
+  height: auto;
+  translate: 5%;
+  margin: 5%;
+}
+main .testimonios {
+  padding: 5px;
+}
+main .testimonios .titTestimonios {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+main .testimonios .subTestimonios {
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 15px;
+}
+
+/* Desde acá, es contacto */
+main .videoLlamada {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .titContactanos {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  background: linear-gradient(black, rgb(73, 3, 3));
+}
+main .formulario {
+  display: grid;
+  margin-top: 5%;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  color: white;
+  translate: 12%;
+}
+main .formulario .requeridos {
+  margin-top: 5%;
+  font-size: 15px;
+}
+main .formulario .formu {
+  margin-top: 5%;
+}
+main .formulario .enviar {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Desde acá, es galeria */
+main .galeriaT {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+main .slider {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .slider li {
+  list-style: none;
+}
+main .slider ul {
+  display: flex;
+  -webkit-animation: cambio 10s infinite alternate linear;
+          animation: cambio 10s infinite alternate linear;
+  width: 300%;
+}
+main .slider .galleryImg {
+  width: 85%;
+  height: 85%;
+  list-style: none;
+}
+@-webkit-keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -203%;
+  }
+}
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -203%;
+  }
+}
+
+@media (min-width: 1280px) {
+  body .logo {
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+    translate: 10%;
+  }
+  body header .contenedor {
+    width: 100%;
+    padding: 2px;
+  }
+  body header .contenedor .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 21px;
+    width: 100%;
+    height: auto;
+  }
+  body header .contenedor .menu ul {
+    display: flex;
+    font-size: 25px;
+  }
+  body main .fotoFondo {
+    background-image: url(../Img/atlasfondo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    opacity: 80%;
+  }
+  body main .fotoFondo .indexTit {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    background-color: black;
+  }
+  body main .fotoFondo .entrenaIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 5px;
+    margin-top: 40%;
+    background: linear-gradient(black, rgb(73, 3, 3));
+  }
+  body main .fotoFondo .entrenaIndex .salud {
+    font-size: 30px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+  }
+  body main .fotoFondo .entrenaIndex .entrenaC {
+    font-size: 30px;
+  }
+  body main .titCambios {
+    color: white;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    margin-left: 0;
+  }
+  body main .slider {
+    margin: 0;
+  }
+  body main .slider .galleryImg {
+    width: 70%;
+    height: 70%;
+  }
+  body main .mensaje1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  body main .direccionAtlas {
+    font-size: 20px;
+    color: white;
+    max-width: 300px;
+    margin-right: 2%;
+    margin-bottom: 0;
+    background-color: gray;
+    display: inline-block;
+    translate: 900px;
+  }
+  body main .instagram {
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    bottom: 0%;
+    margin-top: 1%;
+  }
+  body main .titNos {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body main .nosotros {
+    width: 40%;
+    height: auto;
+    translate: 75%;
+  }
+  body main .staff .columnsProfes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  body main .staff .columnsProfes .titStaff {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30%;
+    padding: 20px;
+  }
+  body main .staff .columnsProfes .pStaffDiego {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 2%;
+  }
+  body main .staff .columnsProfes .pStaffSanti {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 5%;
+  }
+  body main .colOpiniones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body main .opiniones {
+    width: 70%;
+    height: auto;
+    translate: 10%;
+    margin-top: 5%;
+  }
+  body main .testimonios .titTestimonios {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 4.5%;
+    padding: 2%;
+  }
+  body main .testimonios .subTestimonios {
+    color: white;
+    margin-top: 2%;
+    font-size: 25px;
+    padding: 2%;
+  }
+  body main .videoLlamada {
+    height: 760px;
+  }
+  body main .titContactanos {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+  }
+  body main .formulario {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 430px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  body main .formulario .requeridos {
+    margin: 1%;
+  }
+  body main .formulario .formu {
+    margin: 2%;
+  }
+  body main .galeriaT {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+  }
+}/*# sourceMappingURL=main.css.map */
