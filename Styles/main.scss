@@ -30,6 +30,9 @@ body {
     a {
         text-decoration: none;
         color: white;
+        &:hover {
+            color: yellow;
+        }
     } 
     .indexTit {
         color: white;
@@ -164,6 +167,91 @@ main {
             margin-top: 5%;
             margin-bottom: 5%;
             font-size: 15px;
+            padding: 2%;
+        }
+    }
+    .card {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        margin-left: 0%;
+        .card-img-top {
+            width: 30%;
+            height: auto;
+            margin-left: 35%;
+            margin-top: 2%;
+        }
+        .card-title {
+            color: white;
+            margin-left: 25%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .card-title1 {
+            color: white;
+            margin-left: 28%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .card-title2 {
+            color: white;
+            margin-left: 30%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .card-title3 {
+            color: white;
+            margin-left: 23%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .card-title4 {
+            color: white;
+            margin-left: 26%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .card-title5 {
+            color: white;
+            margin-left: 29%;
+            font-size: 20px;
+            margin-top: 2%;
+        }
+        .card-text {
+            color: white;
+            font-size: 15px;
+            margin-top: 2%;
+            margin-left: 15%;
+        }
+        .card-text1 {
+            color: white;
+            font-size: 15px;
+            margin-top: 2%;
+            margin-left: 18%;
+        }
+        .card-text2 {
+            color: white;
+            font-size: 15px;
+            margin-top: 2%;
+            margin-left: 15%;
+        }
+        .card-text3 {
+            color: white;
+            font-size: 15px;
+            margin-top: 2%;
+            margin-left: 18%;
+        }
+        .card-text4 {
+            color: white;
+            font-size: 15px;
+            margin-top: 2%;
+            margin-left: 30%;
+        }
+        .card-text5 {
+            color: white;
+            font-size: 15px;
+            margin-top: 2%;
+            margin-left: 20%;
+
         }
     }
 }
@@ -250,7 +338,7 @@ main {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    font-size: 21px;
+                    font-size: 20px;
                     width: 100%;
                     height: auto;
                     ul {
@@ -391,6 +479,89 @@ main {
                     margin-top: 2%;
                     font-size: 25px;
                     padding: 2%;
+                }
+            }
+            .card {
+                margin-top: 5%;
+                margin-left: 38%;
+                .card-img-top {
+                    width: 40%;
+                    height: auto;
+                    margin-left: 35%;
+                    margin-top: 2%;
+                }
+                .card-title {
+                    color: white;
+                    margin-left: 30%;
+                    font-size: 20px;
+                    margin-top: 2%;
+                }
+                .card-title1 {
+                    color: white;
+                    margin-left: 33%;
+                    font-size: 20px;
+                    margin-top: 2%;
+                }
+                .card-title2 {
+                    color: white;
+                    margin-left: 35%;
+                    font-size: 20px;
+                    margin-top: 2%;
+                }
+                .card-title3 {
+                    color: white;
+                    margin-left: 28%;
+                    font-size: 20px;
+                    margin-top: 2%;
+                }
+                .card-title4 {
+                    color: white;
+                    margin-left: 32%;
+                    font-size: 20px;
+                    margin-top: 2%;
+                }
+                .card-title5 {
+                    color: white;
+                    margin-left: 33%;
+                    font-size: 20px;
+                    margin-top: 2%;
+                }
+                .card-text {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 2%;
+                    margin-left: 20%;
+                }
+                .card-text1 {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 2%;
+                    margin-left: 20%;
+                }
+                .card-text2 {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 2%;
+                    margin-left: 20%;
+                }
+                .card-text3 {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 2%;
+                    margin-left: 20%;
+                }
+                .card-text4 {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 2%;
+                    margin-left: 34%;
+                }
+                .card-text5 {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 2%;
+                    margin-left: 24%;
+
                 }
             }
             .videoLlamada {
