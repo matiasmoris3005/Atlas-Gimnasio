@@ -170,88 +170,80 @@ main .testimonios .subTestimonios {
   font-size: 15px;
   padding: 2%;
 }
-main .card {
+main .reseñas {
+  width: 100%;
+  padding: 2%;
+}
+main .reseñas .card {
   margin-top: 8%;
   margin-bottom: 8%;
-  margin-left: 0%;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-main .card .card-img-top {
-  width: 30%;
+main .reseñas .card .card-img-top {
+  width: 60%;
   height: auto;
-  margin-left: 35%;
-  margin-top: 2%;
 }
-main .card .card-title {
-  color: white;
-  margin-left: 25%;
-  font-size: 20px;
-  margin-top: 2%;
-}
-main .card .card-title1 {
-  color: white;
-  margin-left: 28%;
-  font-size: 20px;
-  margin-top: 2%;
-}
-main .card .card-title2 {
-  color: white;
-  margin-left: 30%;
-  font-size: 20px;
-  margin-top: 2%;
-}
-main .card .card-title3 {
-  color: white;
-  margin-left: 23%;
-  font-size: 20px;
-  margin-top: 2%;
-}
-main .card .card-title4 {
-  color: white;
-  margin-left: 26%;
-  font-size: 20px;
-  margin-top: 2%;
-}
-main .card .card-title5 {
-  color: white;
-  margin-left: 29%;
-  font-size: 20px;
-  margin-top: 2%;
-}
-main .card .card-text {
+main .reseñas .card .card-title {
   color: white;
   font-size: 15px;
-  margin-top: 2%;
-  margin-left: 15%;
 }
-main .card .card-text1 {
+main .reseñas .card .card-title1 {
   color: white;
   font-size: 15px;
-  margin-top: 2%;
-  margin-left: 18%;
 }
-main .card .card-text2 {
+main .reseñas .card .card-title2 {
   color: white;
   font-size: 15px;
-  margin-top: 2%;
-  margin-left: 15%;
 }
-main .card .card-text3 {
+main .reseñas .card .card-title3 {
   color: white;
   font-size: 15px;
-  margin-top: 2%;
-  margin-left: 18%;
 }
-main .card .card-text4 {
+main .reseñas .card .card-title4 {
   color: white;
   font-size: 15px;
-  margin-top: 2%;
-  margin-left: 30%;
 }
-main .card .card-text5 {
+main .reseñas .card .card-title5 {
   color: white;
   font-size: 15px;
-  margin-top: 2%;
-  margin-left: 20%;
+}
+main .reseñas .card .card-text {
+  color: white;
+  margin-top: 4%;
+  font-size: 12px;
+  max-width: 200px;
+}
+main .reseñas .card .card-text1 {
+  color: white;
+  margin-top: 4%;
+  font-size: 12px;
+  max-width: 200px;
+}
+main .reseñas .card .card-text2 {
+  color: white;
+  font-size: 12px;
+  margin-top: 4%;
+  max-width: 200px;
+}
+main .reseñas .card .card-text3 {
+  color: white;
+  font-size: 12px;
+  margin-top: 4%;
+  max-width: 200px;
+}
+main .reseñas .card .card-text4 {
+  color: white;
+  font-size: 12px;
+  margin-top: 4%;
+  max-width: 200px;
+}
+main .reseñas .card .card-text5 {
+  color: white;
+  font-size: 12px;
+  margin-top: 4%;
+  max-width: 200px;
 }
 
 /* Desde acá, es contacto */
@@ -465,9 +457,9 @@ main .slider .galleryImg {
     grid-template-columns: 1fr 1fr;
   }
   body main .opiniones {
-    width: 70%;
+    width: 50%;
     height: auto;
-    translate: 10%;
+    translate: 30%;
     margin-top: 5%;
   }
   body main .testimonios .titTestimonios {
@@ -483,87 +475,100 @@ main .slider .galleryImg {
     font-size: 25px;
     padding: 2%;
   }
-  body main .card {
-    margin-top: 5%;
-    margin-left: 38%;
+  body main .reseñas {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  body main .card .card-img-top {
-    width: 40%;
+  body main .reseñas .card {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  body main .reseñas .card .card-img-top {
+    width: 80%;
     height: auto;
     margin-left: 35%;
+    margin-right: 4%;
     margin-top: 2%;
   }
-  body main .card .card-title {
+  body main .reseñas .card .card-title {
     color: white;
     margin-left: 30%;
     font-size: 20px;
     margin-top: 2%;
   }
-  body main .card .card-title1 {
+  body main .reseñas .card .card-title1 {
     color: white;
     margin-left: 33%;
     font-size: 20px;
     margin-top: 2%;
   }
-  body main .card .card-title2 {
+  body main .reseñas .card .card-title2 {
     color: white;
     margin-left: 35%;
     font-size: 20px;
     margin-top: 2%;
   }
-  body main .card .card-title3 {
+  body main .reseñas .card .card-title3 {
     color: white;
     margin-left: 28%;
     font-size: 20px;
     margin-top: 2%;
   }
-  body main .card .card-title4 {
+  body main .reseñas .card .card-title4 {
     color: white;
     margin-left: 32%;
     font-size: 20px;
     margin-top: 2%;
   }
-  body main .card .card-title5 {
+  body main .reseñas .card .card-title5 {
     color: white;
     margin-left: 33%;
     font-size: 20px;
     margin-top: 2%;
   }
-  body main .card .card-text {
+  body main .reseñas .card .card-text {
     color: white;
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 30%;
+    min-width: 150px;
   }
-  body main .card .card-text1 {
-    color: white;
-    font-size: 15px;
-    margin-top: 2%;
-    margin-left: 20%;
-  }
-  body main .card .card-text2 {
-    color: white;
-    font-size: 15px;
-    margin-top: 2%;
-    margin-left: 20%;
-  }
-  body main .card .card-text3 {
-    color: white;
-    font-size: 15px;
-    margin-top: 2%;
-    margin-left: 20%;
-  }
-  body main .card .card-text4 {
+  body main .reseñas .card .card-text1 {
     color: white;
     font-size: 15px;
     margin-top: 2%;
     margin-left: 34%;
+    min-width: 150px;
   }
-  body main .card .card-text5 {
+  body main .reseñas .card .card-text2 {
     color: white;
     font-size: 15px;
     margin-top: 2%;
-    margin-left: 24%;
+    margin-left: 34%;
+    min-width: 150px;
+  }
+  body main .reseñas .card .card-text3 {
+    color: white;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 30%;
+    min-width: 150px;
+  }
+  body main .reseñas .card .card-text4 {
+    color: white;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 34%;
+    min-width: 150px;
+  }
+  body main .reseñas .card .card-text5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 34%;
+    min-width: 150px;
   }
   body main .videoLlamada {
     height: 760px;

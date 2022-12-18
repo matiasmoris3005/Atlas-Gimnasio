@@ -170,90 +170,81 @@ main {
             padding: 2%;
         }
     }
+    .reseñas {
+        width: 100%;
+        padding: 2%;
     .card {
         margin-top: 8%;
         margin-bottom: 8%;
-        margin-left: 0%;
+        padding: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         .card-img-top {
-            width: 30%;
+            width: 60%;
             height: auto;
-            margin-left: 35%;
-            margin-top: 2%;
         }
         .card-title {
             color: white;
-            margin-left: 25%;
-            font-size: 20px;
-            margin-top: 2%;
+            font-size: 15px;
         }
         .card-title1 {
             color: white;
-            margin-left: 28%;
-            font-size: 20px;
-            margin-top: 2%;
+            font-size: 15px;
         }
         .card-title2 {
             color: white;
-            margin-left: 30%;
-            font-size: 20px;
-            margin-top: 2%;
+            font-size: 15px;
         }
         .card-title3 {
             color: white;
-            margin-left: 23%;
-            font-size: 20px;
-            margin-top: 2%;
+            font-size: 15px;
         }
         .card-title4 {
             color: white;
-            margin-left: 26%;
-            font-size: 20px;
-            margin-top: 2%;
+            font-size: 15px;
         }
         .card-title5 {
             color: white;
-            margin-left: 29%;
-            font-size: 20px;
-            margin-top: 2%;
+            font-size: 15px;
         }
         .card-text {
             color: white;
-            font-size: 15px;
-            margin-top: 2%;
-            margin-left: 15%;
+            margin-top: 4%;
+            font-size: 12px;
+            max-width: 200px;
         }
         .card-text1 {
             color: white;
-            font-size: 15px;
-            margin-top: 2%;
-            margin-left: 18%;
+            margin-top: 4%;
+            font-size: 12px;
+            max-width: 200px;
         }
         .card-text2 {
             color: white;
-            font-size: 15px;
-            margin-top: 2%;
-            margin-left: 15%;
+            font-size: 12px;
+            margin-top: 4%;
+            max-width: 200px;
         }
         .card-text3 {
             color: white;
-            font-size: 15px;
-            margin-top: 2%;
-            margin-left: 18%;
+            font-size: 12px;
+            margin-top: 4%;
+            max-width: 200px;
         }
         .card-text4 {
             color: white;
-            font-size: 15px;
-            margin-top: 2%;
-            margin-left: 30%;
+            font-size: 12px;
+            margin-top: 4%;
+            max-width: 200px;
         }
         .card-text5 {
             color: white;
-            font-size: 15px;
-            margin-top: 2%;
-            margin-left: 20%;
-
+            font-size: 12px;
+            margin-top: 4%;
+            max-width: 200px;
         }
     }
+}
 }
 /* Desde acá, es contacto */
 main {
@@ -461,9 +452,9 @@ main {
                 grid-template-columns: 1fr 1fr;
             }
             .opiniones {
-                width: 70%;
+                width: 50%;
                 height: auto;
-                translate: 10%;
+                translate: 30%;
                 margin-top: 5%;
             }
             .testimonios {
@@ -481,13 +472,19 @@ main {
                     padding: 2%;
                 }
             }
+            .reseñas {
+                width: 100%;
+                height: auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
             .card {
                 margin-top: 5%;
-                margin-left: 38%;
+                margin-left: 10%;
                 .card-img-top {
-                    width: 40%;
+                    width: 80%;
                     height: auto;
                     margin-left: 35%;
+                    margin-right: 4%;
                     margin-top: 2%;
                 }
                 .card-title {
@@ -530,40 +527,46 @@ main {
                     color: white;
                     font-size: 15px;
                     margin-top: 2%;
-                    margin-left: 20%;
+                    margin-left: 30%;
+                    min-width: 150px;
                 }
                 .card-text1 {
                     color: white;
                     font-size: 15px;
                     margin-top: 2%;
-                    margin-left: 20%;
+                    margin-left: 34%;
+                    min-width: 150px;
                 }
                 .card-text2 {
                     color: white;
                     font-size: 15px;
                     margin-top: 2%;
-                    margin-left: 20%;
+                    margin-left: 34%;
+                    min-width: 150px;
                 }
                 .card-text3 {
                     color: white;
                     font-size: 15px;
                     margin-top: 2%;
-                    margin-left: 20%;
+                    margin-left: 30%;
+                    min-width: 150px;
                 }
                 .card-text4 {
                     color: white;
                     font-size: 15px;
                     margin-top: 2%;
                     margin-left: 34%;
+                    min-width: 150px;
                 }
                 .card-text5 {
                     color: white;
                     font-size: 15px;
                     margin-top: 2%;
-                    margin-left: 24%;
-
+                    margin-left: 34%;
+                    min-width: 150px;
                 }
             }
+        }
             .videoLlamada {
                 height: 760px;
             }
